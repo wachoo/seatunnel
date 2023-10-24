@@ -79,7 +79,11 @@
             <artifactId>seatunnel-hadoop3-3.1.4-uber</artifactId>
             <version>${project.version}</version>
             <classifier>optional</classifier>
-            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-bundle</artifactId>
+            <version>1.19</version>
         </dependency>
     </dependencies>
 </project>
