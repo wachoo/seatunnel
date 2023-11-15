@@ -31,15 +31,20 @@
 
     <properties>
         <hadoop-aliyun.version>3.0.0</hadoop-aliyun.version>
+        <hadoop3.version>3.1.4</hadoop3.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>${hadoop3.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.seatunnel</groupId>
             <artifactId>seatunnel-hadoop3-3.1.4-uber</artifactId>
             <version>${project.version}</version>
             <classifier>optional</classifier>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
